@@ -29,3 +29,6 @@
 > Females being younger in age on the average tend to spend more time biking vs Male and Other genders.
 > Males dominate as the users in the data. Subscriber type is dominant between all gender types.
 > Sunday shows longest trip duration during early hours.
+
+
+## Thanks!!
