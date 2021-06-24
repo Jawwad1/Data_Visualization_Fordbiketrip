@@ -4,7 +4,6 @@
 
 ## Dataset
 
-
 > The dataset chosen for this project belongs to February 2019 Ford gobike trip which contains roughly 180k rows and 16 columns. Some columns were created during the analysis to plug in more simpler information.
 > The dataset contains of information regarding the trip durtion (in secs) for different bike riders taking the bike from starting stations to ending stations classified by station names and ids.
 > Also it contains the birth year of bike riders along with their gender and  subscription type.
@@ -12,13 +11,16 @@
 
 ## Summary of Findings
 
-> From the distribution plot of trip duration, it takes a unimodal peak from 500 to 1000 secs (0.14 to 0.3 hours). The distribution shows the trip counts peak around 1250 and then a ramp down from there onwards.
-> From the histogram plot of start and end station ids, they both show particular stations in both cases taking the most traffic.
+> From the trip duration (secs) distribution, it shows that from 500 to 1000 secs ( 0.14-0.3 hours) the trip duration counts take a peak around 80k and then trend down from there. It is a unimodal distribution and shows only one peak in it.
+> Biker's age distribution is with in 25-35 years range.
+> Top 10 start and end stations for traffic count seems to be overlapping.
 > The count of subscriber type customer is naturally higher than customer type. Since subscribers tend to use the service more often than the new non-subscriber type. Males dominate both subscription categories.
+> Stations ids and duration in seconds. It shows that some start and end stations bike duration (seconds) are higher.
 > Females and other use the bike for slightly longer duration vs the Male.
 > Though Male dominates as the user type, Female and other genders use the bikes for longer durations.
 > Females are the youngest on average in the whole population type.
-> There is a jump in the duration(sec) for 'Other' gender specially above 50 years of age. In this case both Customer and Subscriber are showing similer trends for age and trip duration. But there is slight tilt to higher age for subscribers.
+> The Average duration (secs) higher for customer category specially on weekend. Same is the case with Subscriber type.
+> Heatmap shows that the duration in minutes seem to be higher on weekends specially during the early hours. Sunday shows longest trip 
 
 ## Key Insights for Presentation
 
@@ -26,4 +28,4 @@
 > Peak duration in seconds stays within 500 secs to 1000 seconds.
 > Females being younger in age on the average tend to spend more time biking vs Male and Other genders.
 > Males dominate as the users in the data. Subscriber type is dominant between all gender types.
-> Customers and Subscriber show almost the same trend for the trip duration(secs). However, higher age subscribers tilt more towards higher duration.
+> Sunday shows longest trip duration during early hours.
